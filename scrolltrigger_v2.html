@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Document</title>
+          <style>
+               body {
+                    margin: 0;
+               }
+               .panel {
+                    height: 100vh;
+                    background-color: wheat;
+               }
+               nav {
+                    position: sticky;
+                    top: 0;
+                    transition: all 600ms ease-in-out;
+                    background-color: wheat;
+                    color: white;
+               }
+               ul {
+                    margin: 0;
+                    padding: 40px;
+                    display: flex;
+                    justify-content: flex-end;
+                    list-style-type: none;
+               }
+               .nav-active {
+                    background-color: white;
+                    color: black;
+               }
+               .box {
+                    width: 100px;
+                    height: 100px;
+                    background-color: blue;
+               }
+               .box-red {
+                    background-color: red;
+               }
+          </style>
+     </head>
+     <body>
+          <nav>
+               <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+               </ul>
+          </nav>
+          <div class="panel">
+               <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa excepturi saepe eaque! Et nobis eius eos ea voluptas numquam
+                    facere at magnam, adipisci illo error reprehenderit vel quia doloribus dignissimos.
+               </p>
+          </div>
+          <!-- <div class="box"></div>
+          <div class="panel"></div> -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+          <script src="scrolltriger_v2.js"></script>
+     </body>
+</html>
